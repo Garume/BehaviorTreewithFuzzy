@@ -13,8 +13,45 @@ MonoBehaviour:
   m_Name: Test Graph
   m_EditorClassIdentifier: Assembly-CSharp::ExampleGraph
   serializedNodes: []
-  nodes: []
-  edges: []
+  nodes:
+  - rid: 2980844641562918913
+  - rid: 2980844641562918915
+  - rid: 2980844641562918916
+  - rid: 2980844641562918917
+  - rid: 2980844641562918919
+  edges:
+  - GUID: f1d8bdfd-a13b-420d-8994-64724a4d989e
+    owner: {fileID: 11400000}
+    inputNodeGUID: fa73fc74-1a20-4722-ac02-8cb7d30d5149
+    outputNodeGUID: 8fd079d8-bc3e-4fb0-82f5-2aed16051c74
+    inputFieldName: input1
+    outputFieldName: output
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 11161359-a8b0-4bcf-bdd2-b74de28dec3d
+    owner: {fileID: 11400000}
+    inputNodeGUID: 483435ea-be5c-4ed1-a5d1-bff1a191df21
+    outputNodeGUID: fa73fc74-1a20-4722-ac02-8cb7d30d5149
+    inputFieldName: input
+    outputFieldName: output
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 49ebed31-7364-4dc8-a80b-472a2595b648
+    owner: {fileID: 11400000}
+    inputNodeGUID: 2f6c64dd-e4ec-4c45-a21e-c915c16b3415
+    outputNodeGUID: 6194fb06-2572-4731-a769-6c2da7b87d17
+    inputFieldName: input
+    outputFieldName: output
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: eae21f6f-f9f6-49fc-9317-9a3833fc0dcb
+    owner: {fileID: 11400000}
+    inputNodeGUID: fa73fc74-1a20-4722-ac02-8cb7d30d5149
+    outputNodeGUID: 2f6c64dd-e4ec-4c45-a21e-c915c16b3415
+    inputFieldName: input2
+    outputFieldName: output
+    inputPortIdentifier: 
+    outputPortIdentifier: 
   groups: []
   stackNodes: []
   pinnedElements: []
@@ -26,4 +63,89 @@ MonoBehaviour:
   scale: {x: 1, y: 1, z: 1}
   references:
     version: 2
-    RefIds: []
+    RefIds:
+    - rid: 2980844641562918913
+      type: {class: AddNode, ns: , asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: fa73fc74-1a20-4722-ac02-8cb7d30d5149
+        computeOrder: 3
+        position:
+          serializedVersion: 2
+          x: 532
+          y: 209
+          width: 100
+          height: 99
+        expanded: 1
+        debug: 0
+        nodeLock: 0
+        input1: 0
+        input2: 0
+        output: 0
+    - rid: 2980844641562918915
+      type: {class: ResultNode, ns: , asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: 483435ea-be5c-4ed1-a5d1-bff1a191df21
+        computeOrder: 4
+        position:
+          serializedVersion: 2
+          x: 768
+          y: 232.5
+          width: 78
+          height: 75
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        input: 0
+    - rid: 2980844641562918916
+      type: {class: FloatNode, ns: , asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: 8fd079d8-bc3e-4fb0-82f5-2aed16051c74
+        computeOrder: 2
+        position:
+          serializedVersion: 2
+          x: 241
+          y: 171
+          width: 102
+          height: 75
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        input: 7
+        output: 0
+    - rid: 2980844641562918917
+      type: {class: FloatNode, ns: , asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: 6194fb06-2572-4731-a769-6c2da7b87d17
+        computeOrder: 0
+        position:
+          serializedVersion: 2
+          x: 128
+          y: 335
+          width: 102
+          height: 99
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        input: 0
+        output: 0
+    - rid: 2980844641562918919
+      type: {class: FloatNode, ns: , asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: 2f6c64dd-e4ec-4c45-a21e-c915c16b3415
+        computeOrder: 1
+        position:
+          serializedVersion: 2
+          x: 320
+          y: 376
+          width: 102
+          height: 99
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        input: 0
+        output: 0
